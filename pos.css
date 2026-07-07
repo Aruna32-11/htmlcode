@@ -1,0 +1,13 @@
+.main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(5,500px);
+    gap:10px;
+}
+.box{
+    background-color: rebeccapurple;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

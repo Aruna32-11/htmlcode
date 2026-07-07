@@ -1,0 +1,25 @@
+.main {
+    height: 500vh;
+}
+.row {
+    height: 500vh;
+}
+.col1, .col2, .col3, .col4, .col5, .col6 {
+    height: 110vh;
+    width: 250px;
+    color: white;
+    font-weight: bold;
+    font-family: "fantasy";
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px; 
+}
+
+.col1 { background: red;color: black; }
+.col2 { background: yellow; color: black; }
+.col3 { background: purple; color: black;}
+.col4 { background: blue; color: black; }
+.col5 { background: green; color: black;}
+.col6 { background: orange; color: black;}

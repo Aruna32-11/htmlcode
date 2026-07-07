@@ -1,0 +1,25 @@
+.main{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    /* grid-template-rows: repeat(1,100vh); 
+    gap:10px;
+}
+.box1{
+    /* background-color; */
+    /* color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+     background-image: url("images/nature\ 2.jpg");
+    /* height: 40px;
+    width: 30px; */
+    
+}
+.box2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: blue;
+    font-size: 40px;
+    text-align: center;
+    top: 100px;
+
+}

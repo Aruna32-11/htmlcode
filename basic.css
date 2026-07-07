@@ -1,0 +1,84 @@
+/* body{
+    background-image: url("./images/image\ 3.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 90px;
+    margin-top: 40px;
+
+}
+.a1{
+    color:brown;
+    font-family: monospace;
+    text-align: center;
+    font-size: 10px;
+    
+}
+.main{
+    height: 350px;
+    width: 350px;
+    border: 2px solid cornsilk;
+    background-color: plum;
+    margin-left: 70vh ;
+    margin-top: 40vh;
+    border-radius: 20px;
+}
+.l1{
+    padding: 30px;
+    margin-left: 20px;
+}
+.l2{
+    padding: 30px;
+    margin-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.l3{
+    padding: 30px;
+    margin-left: 20px;
+
+}
+.btn button{
+    margin-left: 20vh;
+    border-radius: 20px;
+    width: 80px;
+    background-color: powderblue;
+} */
+
+.hlo{
+    color:blue;
+}
+
+.wrap{
+    background-image: url("images/facee.jpeg");
+    height: 500px;
+    width: 400px;
+}
+@media (max-width: 600px){
+    .hlo{
+        color:brown
+    }
+        
+        .wrap{
+        background-image: url("images/nature\ 3.avif");
+    
+    
+}
+}
+
+    @media only screen and (min-width: 601px) and (max-width:700px){
+      .hlo{
+        color:aqua
+      }
+    }
+
+    @media only screen and (min-width: 701px) and (max-width:800px){
+      .hlo{
+        color:blueviolet
+      }
+    }
+
+    
+ 
+    
+
+
+  

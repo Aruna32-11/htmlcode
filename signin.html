@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>hyyy</h1>
+    
+    <h1 id="hlo"></h1>
+   
+
+    <button onclick="handleShow()">Show</button>
+
+    <input type="text" placeholder="Enter your FirstName:" id="first"/>
+    <input type="text" placeholder="Enter your Lastname:" id="last"/>
+    <input type="text" placeholder="Enter your username:" id="user"/>    
+    <input type="text" placeholder="Enter your Password:" id="pass"/>
+    <input type="text" placeholder="Enter the mobilenumber:" id="phone"/>
+    <input type="text" placeholder="Enter the email:" id="mail"/>
+    <button onclick="handleSubmit()">signup</button>
+
+    <script>
+       function handleShow(){
+          document.getElementById("hlo").textContent = "Greens"
+        }
+
+        function handleSubmit(){
+           
+            let firstname = document.getElementById("first").value
+            let lastname = document.getElementById("last").value
+            let username = document.getElementById("user").value
+            let password = document.getElementById("pass").value
+            let email = document.getElementById("mail").value
+            let mobilephone= document.getElementById("phone").value
+            
+
+        if(username =='' || password == '' || firstname == '' || lastname == '' || email == '' || mobilephone == ''){
+            // console.log
+            alert("pls fill the form");
+            
+        }else{
+            // console.log instead of log use alert for pop up message on the top 
+            alert("validation successful");
+            
+        }
+        
+
+    }     
+
+    </script>
+</body>
+</html>

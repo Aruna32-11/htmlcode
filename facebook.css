@@ -1,0 +1,70 @@
+.left {
+    height: 90vh;   
+    background-image: url("images/face 2.jpeg");
+    background-size: cover; 
+    margin-top: 20px;     
+    background-position: center; 
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding:15px;
+}
+.log{
+    width: 500px;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 50px;
+    background: blue;
+    font-size: 18px;
+    border: 1px solid ;
+    border-radius: 22px;
+    text-align: center;
+}
+
+.login-box input {
+    margin-top: 33px;
+    border: 1px solid black;
+    border-radius: 22px;
+    width: 500px;
+    height: 60px;
+}
+.p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    padding: 30px;
+}
+.create{
+  width: 500px;
+  padding: 5px;
+  background: white;
+  border: 1px solid blue;
+  color: blue;
+  font-size: 20px;
+  border-radius:20px;
+  border-color: darkblue;
+  cursor: pointer;
+}
+.pass{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 15px;
+    padding: 20px;
+    text-align: center;
+}
+.text{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 15px;
+    color: black;
+    padding: 20px;
+}
+.logo {
+    width: 70px;
+    margin-bottom: 10px;
+    margin-left: 5vh;
+}
